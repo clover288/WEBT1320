@@ -1,6 +1,6 @@
 /* global styles */
 body {
-    background-color: #AEAEBE;
+    background-color: #eeeee6;
 }
 
 img {
@@ -10,29 +10,29 @@ img {
 }
 
 a {
-    color: #87AD4E;
+    color: #3c2527;
 }
 
 a:hover {
-    color: #c789c3;
+    color: #a9797d;
     text-decoration: none;
 }
 
 #container {
-    background-color: #D9A553;
+    background-color: #E4B8BD;
     width: 75%;
     margin: 20px auto;
 }
 
 h1, h2, h3 {
     text-align: center;
-    color: #56482f;
+    color: #3c2527;
 }
 
 /* Desktop Styles */
 
 nav {
-    background-color: aliceblue;
+    background-color: #9c636a;
     padding: 5px 0;
 }
 
@@ -47,7 +47,7 @@ nav li {
 }
 
 nav li a {
-    color: rgb(94, 94, 84);
+    color: #d5b1b4;
     margin-right: 20px;
     text-decoration: none;
     font-size: 20px;
@@ -55,7 +55,7 @@ nav li a {
 }
 
 nav li a:hover {
-    color: white;
+    color: #3c2527;
 }
 
 header h1 {
@@ -96,10 +96,10 @@ hr {
 
 .button {
     display: block;
-    background-color: pink;
+    background-color: #8b5f63;
     width: 125px;
     height: 30px;
-    color: palevioletred;
+    color: #3c2527;
     text-decoration: none;
     text-align: center;
     line-height: 30px;
