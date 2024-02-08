@@ -1,51 +1,88 @@
+/* global styles */
 body {
-    background-color: rgb(155, 155, 136);
+    background-color: #AEAEBE;
 }
 
-#container {
-    background-color: white;
-    padding: 20px;
-    width: 75%;
-    margin: 0 auto;
-    border: 4px solid rgb(58, 70, 47);
-}
-
-header h1 {
-    text-align: center;
-    font-size: 100px;
-    color: rgb(155, 155, 136);
-    text-shadow: 2px 2px 2px black;
-}
-
-nav {
-    text-align: center;
-}
-
-nav a {
-    color: rgb(155, 155, 136);
-    font-size: 20px;
-    font-weight: bold;
-    margin: 0 10px;
-}
-
-nav a:hover {
-    color: pink;
-    text-decoration: none;
-}
-
-main img {
+img {
     display: block;
-    width: 50%;
-    margin: 20px auto;
+    margin: 0 auto;
+    width: 100%;
 }
 
 a {
-    color: rgb(155, 155, 136);
+    color: #87AD4E;
 }
 
 a:hover {
-    color: pink;
+    color: #c789c3;
     text-decoration: none;
+}
+
+#container {
+    background-color: #D9A553;
+    width: 75%;
+    margin: 20px auto;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #56482f;
+}
+
+/* Desktop Styles */
+
+nav {
+    background-color: aliceblue;
+    padding: 5px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 ;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    color: rgb(94, 94, 84);
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+header h1 {
+    font-size: 100px;
+    color: azure;
+    text-shadow: 2px 2px 2px #412C29;
+}
+
+main {
+    padding: 20px 0;
+}
+
+main img {
+    width: 50%;
+}
+
+#lower {
+    display: flex;
+}
+
+
+.col {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #412C29;
+    width: 33.33%;
+    border-radius: 25px;
 }
 
 footer {
@@ -53,6 +90,37 @@ footer {
     text-align: center;
 }
 
-h2 {
+hr {
+    width: 95%;
+}
+
+.button {
+    display: block;
+    background-color: pink;
+    width: 125px;
+    height: 30px;
+    color: palevioletred;
+    text-decoration: none;
     text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button:hover {
+    color: white;
+}
+
+#games {
+    display: flex;
+}
+
+.gamepics {
+    margin: 7px;
+}
+
+.gamepics img {
+    width: 100%;
 }
