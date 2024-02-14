@@ -1,0 +1,146 @@
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(188, 132, 132);
+}
+
+#container {
+    background-color: rgb(232, 208, 220);
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+a {
+    color: rgb(68, 38, 53);
+}
+
+a:hover {
+    color: rgb(181, 148, 165);
+    text-decoration: none;
+}
+
+nav {
+    background-color: rgb(133, 89, 111);
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: rgb(68, 38, 53);
+    background-color: rgb(172, 128, 150);
+    text-align: center;
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: rgb(172, 128, 150);
+}
+
+header h1 {
+    font-size: 35px;
+    color: rgb(88, 73, 80);
+}
+
+main {
+    border: 2px solid rgb(107, 71, 89);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#lower {
+    border: 2px solid rgb(68, 38, 53);
+    padding: 10px;
+}
+
+.col {
+    border: 2px solid rgb(68, 38, 53);
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.button {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    background-color: rgb(124, 86, 105);
+    width: 125px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    border: 2px solid rgb(47, 24, 36);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.button:hover {
+    color: rgb(113, 99, 106);
+}
+
+@media(min-width: 786px) {
+    nav {
+        text-align: center;
+    }
+
+    nav li {
+        display: inline-block;
+     }
+
+     nav li a {
+        width: 200px;
+     }
+
+     main img {
+        width: 50%;
+     }
+
+     #lower {
+        width:  75%;
+        margin: o auto;
+     }
+
+     .col img {
+        width: 75%;
+     }
+}
+
+@media (min-width: 1024px) {
+    #lower {
+        #container {
+            width: 65%;
+            margin: 20px auto;
+        }
+
+        width: 100%;
+        display: flex;
+    }
+
+    .col {
+        width:  33.33%;
+    }
+}
