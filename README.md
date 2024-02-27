@@ -7,4 +7,5 @@ lab 1: Clovers
     <li><a href="html5_intro_css/index.html" target="_blank">HTML5 and intro to CSS</a></li>
     <li><a href="adv_css/index.html" target="_blank">Advanced CSS</a></li>
     <li><a href="responsive/index.html" target="_blank">responsive design</a></li>
+    <li><a href="final_project/index.html" target="_blank">Final Project D: </a></li>
 </ul>
